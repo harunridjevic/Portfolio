@@ -93,7 +93,7 @@ export default function Contact() {
       {/* Floating illustrations */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div
-          className="floating-illustration absolute top-[20%] left-[10%] w-16 h-16 md:w-24 md:h-24"
+          className="floating-illustration absolute md:top-[20%] top-[35%] md:left-[10%] -right-[70%] w-16 h-16 md:w-24 md:h-24"
           data-speed="1.5"
         >
           <div className={`w-full h-full rounded-full ${isDark ? "bg-gray-700" : "bg-blue-100"}`} />
