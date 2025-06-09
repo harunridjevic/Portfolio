@@ -66,17 +66,17 @@ const translations: Translations = {
     bs: "O meni",
   },
   aboutText1: {
-    en: "Hi, I'm an 18-year-old developer who's been coding since I was 10. My journey started with a fun beginner project—a simple HTML-based operating system. Over the years, I've expanded my skills into web development, mobile development, mobile game development with Godot and GDScript, and Arduino programming. I’ve competed in various programming competitions, securing 2nd place in the Sarajevo Cantonal competition, which has given me a solid competitive edge. I'm a quick learner who thrives on getting things done and building meaningful full-stack solutions.",
-    bs: "Zdravo, ja sam 18-godišnji developer koji kodira od svoje 10. godine. Moj put je počeo sa zabavnim početničkim projektom—jednostavnim operativnim sistemom zasnovanim na HTML-u. Tokom godina, proširio sam svoje vještine na web razvoj, mobilni razvoj, razvoj mobilnih igara sa Godotom i GDScriptom, kao i Arduino programiranje. Učestvovao sam u raznim programerskim takmičenjima, osvajajući 2. mjesto na Sarajevskom kantonalnom takmičenju, što mi je dalo solidnu konkurentsku prednost. Brzo učim i volim da dovodim stvari do kraja, stvarajući značajna full-stack rješenja.",
+    en: "Hi, I'm an 18-year-old full-stack developer with a passion for building impactful web and mobile applications. I started coding at age 10 and have developed several complex projects, including a mobile app with AI chatbot integration and fully responsive company websites. I've placed 2nd in the Sarajevo Cantonal programming competition and 5th in the National Programming competition BHOI, sharpening my problem-solving skills and competitive mindset. I'm a fast learner who enjoys delivering efficient and meaningful full-stack solutions.",
+    bs: "Zdravo, ja sam 18-godišnji full-stack developer sa strašću za izgradnju značajnih web i mobilnih aplikacija. Počeo sam programirati sa 10 godina i razvio nekoliko kompleksnih projekata, uključujući mobilnu aplikaciju s AI chatbot integracijom i potpuno responzivne web stranice za kompanije. Osvojio sam 2. mjesto na Kantonalnom takmičenju u programiranju u Sarajevu i 5. mjesto na Nacionalnom takmičenju BHOI, što mi je ojačalo sposobnosti rješavanja problema i takmičarski duh. Brzo učim i volim isporučivati efikasna i smislena full-stack rješenja.",
   },
   aboutText2: {
-    en: "I specialize in building modern web applications using technologies like React, Next.js, and TypeScript. My goal is to create intuitive, accessible, and performant experiences that delight users.",
-    bs: "Specijaliziran sam za izgradnju modernih web aplikacija koristeći tehnologije poput React-a, Next.js-a i TypeScript-a. Moj cilj je stvoriti intuitivna, pristupačna i efikasna iskustva koja oduševljavaju korisnike.",
+    en: "I specialize in modern web technologies like React, Next.js, TypeScript, and Tailwind CSS, as well as mobile development with React Native. My goal is to create intuitive, optimized, and user-friendly applications that provide great user experiences.",
+    bs: "Specijaliziran sam za moderne web tehnologije poput React-a, Next.js-a, TypeScript-a i Tailwind CSS-a, kao i mobilni razvoj koristeći React Native. Moj cilj je stvarati intuitivne, optimizirane i korisniku prilagođene aplikacije koje pružaju odlično korisničko iskustvo.",
   },
   aboutText3: {
-    en: "When I'm not coding, you can find me reading, researching, or experimenting with new technologies.",
-    bs: "Kada ne kodiram, možete me naći kako čitam, istražujem ili eksperimentiram s novim tehnologijama.",
-  },
+    en: "When I'm not coding, I enjoy reading, researching new technologies, and exploring ways to enhance my skills and projects.",
+    bs: "Kada ne kodiram, volim čitati, istraživati nove tehnologije i pronalaziti načine kako unaprijediti svoje vještine i projekte.",
+  },  
   skills: {
     en: "Skills",
     bs: "Vještine",

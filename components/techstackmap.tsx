@@ -13,7 +13,7 @@ const techStack = [
   { name: "React", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" },
   { name: "Docker", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" },
   { name: "Git", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/git.svg" },
-  { name: "GraphQL", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/graphql.svg" },
+  { name: "C++", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg" }
 ]
 
 export default function TechStackSection() {
