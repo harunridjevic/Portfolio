@@ -9,9 +9,21 @@ export default function About() {
   const { t } = useTranslation()
   const { resolvedTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
+  const [age, setAge] = useState(0)
 
   useEffect(() => {
     setMounted(true)
+    // Calculate age based on birth date: June 26, 2006
+    const birthDate = new Date(2006, 5, 26) // Month is 0-indexed (5 = June)
+    const today = new Date()
+    let calculatedAge = today.getFullYear() - birthDate.getFullYear()
+    const monthDiff = today.getMonth() - birthDate.getMonth()
+    
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      calculatedAge--
+    }
+    
+    setAge(calculatedAge)
   }, [])
 
   if (!mounted) return null
@@ -85,24 +97,44 @@ export default function About() {
               {t("aboutMe")}
             </motion.h2>
             <motion.div className="space-y-4 text-muted-foreground" variants={fadeInUp} custom={3}>
-              <p>{t("aboutText1")}</p>
+              <p>{t("aboutText1").replace("{age}", age.toString())}</p>
               <p>{t("aboutText2")}</p>
               <p>{t("aboutText3")}</p>
             </motion.div>
 
             <motion.div
-              className="mt-8 grid grid-cols-2 gap-4"
+              className="mt-8"
               variants={fadeInUp}
               custom={4}
+            >
+              <h3 className="font-medium mb-4">{t("workExperience")}</h3>
+              <div className="space-y-4 text-sm text-muted-foreground">
+                <div>
+                  <div className="font-medium text-foreground">BanterBird</div>
+                  <div className="text-xs">Founder / Full-Stack Developer | 06/2026 – Present</div>
+                  <p className="mt-1">{t("banterBirdDesc")}</p>
+                </div>
+                <div>
+                  <div className="font-medium text-foreground">MSMV Holdings LLC</div>
+                  <div className="text-xs">Lead Developer / Full-Stack Developer | 08/2025 – 08/2026</div>
+                  <p className="mt-1">{t("msmvDesc")}</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              className="mt-8 grid grid-cols-2 gap-4"
+              variants={fadeInUp}
+              custom={5}
             >
               <div>
                 <h3 className="font-medium mb-2">{t("skills")}</h3>
                 <ul className="space-y-1 text-sm text-muted-foreground">
                   <li>JavaScript / TypeScript</li>
                   <li>React / Next.js</li>
-                  <li>Node.js</li>
-                  <li>UI/UX Design</li>
                   <li>React Native</li>
+                  <li>Node.js</li>
+                  <li>Three.js / R3F</li>
                   <li>Git and Docker</li>
                 </ul>
               </div>

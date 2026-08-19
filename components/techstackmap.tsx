@@ -11,9 +11,13 @@ const techStack = [
   { name: "TypeScript", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/typescript.svg" },
   { name: "Node.js", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" },
   { name: "React", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" },
+  { name: "React Native", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" },
+  { name: "Three.js", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/threejs.svg" },
   { name: "Docker", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" },
   { name: "Git", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/git.svg" },
-  { name: "C++", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg" }
+  { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" },
+  { name: "Firebase", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/firebase.svg" },
+  { name: "Python", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" }
 ]
 
 export default function TechStackSection() {
@@ -47,7 +51,7 @@ export default function TechStackSection() {
           {t("techStackTitle")}
         </motion.h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
           {techStack.map((tech, i) => (
             <motion.div
               key={tech.name}

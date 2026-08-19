@@ -60,18 +60,22 @@ const translations: Translations = {
     en: "GitHub Projects",
     bs: "GitHub projekti",
   },
+  jobProjects: {
+    en: "Job Projects",
+    bs: "Poslovni projekti",
+  },
   // About
   aboutMe: {
     en: "About Me",
     bs: "O meni",
   },
   aboutText1: {
-    en: "Hi, I'm an 18-year-old full-stack developer with a passion for building impactful web and mobile applications. I started coding at age 10 and have developed several complex projects, including a mobile app with AI chatbot integration and fully responsive company websites. I've placed 2nd in the Sarajevo Cantonal programming competition and 5th in the National Programming competition BHOI, sharpening my problem-solving skills and competitive mindset. I'm a fast learner who enjoys delivering efficient and meaningful full-stack solutions.",
-    bs: "Zdravo, ja sam 18-godišnji full-stack developer sa strašću za izgradnju značajnih web i mobilnih aplikacija. Počeo sam programirati sa 10 godina i razvio nekoliko kompleksnih projekata, uključujući mobilnu aplikaciju s AI chatbot integracijom i potpuno responzivne web stranice za kompanije. Osvojio sam 2. mjesto na Kantonalnom takmičenju u programiranju u Sarajevu i 5. mjesto na Nacionalnom takmičenju BHOI, što mi je ojačalo sposobnosti rješavanja problema i takmičarski duh. Brzo učim i volim isporučivati efikasna i smislena full-stack rješenja.",
+    en: "Hi, I'm a {age}-year-old full-stack developer with a passion for building impactful web and mobile applications. I started coding at age 10 and have developed several complex projects, including production SaaS platforms, 3D web applications, and mobile apps with AI integration. I've placed 2nd in the Sarajevo Cantonal programming competition and 5th in the National Programming competition BHOI. I've led development teams and launched production applications used by professionals in the US and Europe.",
+    bs: "Zdravo, ja sam {age}-godišnji full-stack developer sa strašću za izgradnju značajnih web i mobilnih aplikacija. Počeo sam programirati sa 10 godina i razvio nekoliko kompleksnih projekata, uključujući proizvodne SaaS platforme, 3D web aplikacije i mobilne aplikacije s AI integracijom. Osvojio sam 2. mjesto na Kantonalnom takmičenju u programiranju u Sarajevu i 5. mjesto na Nacionalnom takmičenju BHOI. Vodio sam razvojne timove i lansirao proizvodne aplikacije koje koriste profesionalci u SAD-u i Europi.",
   },
   aboutText2: {
-    en: "I specialize in modern web technologies like React, Next.js, TypeScript, and Tailwind CSS, as well as mobile development with React Native. My goal is to create intuitive, optimized, and user-friendly applications that provide great user experiences.",
-    bs: "Specijaliziran sam za moderne web tehnologije poput React-a, Next.js-a, TypeScript-a i Tailwind CSS-a, kao i mobilni razvoj koristeći React Native. Moj cilj je stvarati intuitivne, optimizirane i korisniku prilagođene aplikacije koje pružaju odlično korisničko iskustvo.",
+    en: "I specialize in modern web technologies like React, Next.js, TypeScript, and Tailwind CSS, as well as mobile development with React Native and 3D development with Three.js. My goal is to create intuitive, optimized, and user-friendly applications that provide great user experiences.",
+    bs: "Specijaliziran sam za moderne web tehnologije poput React-a, Next.js-a, TypeScript-a i Tailwind CSS-a, kao i mobilni razvoj koristeći React Native i 3D razvoj s Three.js. Moj cilj je stvarati intuitivne, optimizirane i korisniku prilagođene aplikacije koje pružaju odlično korisničko iskustvo.",
   },
   aboutText3: {
     en: "When I'm not coding, I enjoy reading, researching new technologies, and exploring ways to enhance my skills and projects.",
@@ -84,6 +88,18 @@ const translations: Translations = {
   interests: {
     en: "Interests",
     bs: "Interesi",
+  },
+  workExperience: {
+    en: "Work Experience",
+    bs: "Radno iskustvo",
+  },
+  banterBirdDesc: {
+    en: "Independently developed and launched a production SaaS platform for anonymous messaging with real-time matchmaking, an AI fallback system, authentication, and moderation.",
+    bs: "Samostalno razvio i lansirao proizvodnu SaaS platformu za anonimno slanje poruka s real-time uparivanjem, AI fallback sustavom, autentifikacijom i moderacijom.",
+  },
+  msmvDesc: {
+    en: "Led the development and maintenance of a production 3D web application for American professionals in the kitchen design and interior design industry. Led a team of two developers, made technical decisions, and oversaw implementation of new features. Developed complex 3D designer functionality including collision detection, camera controls, object transformations, animations, dimensioning, and save-file systems. Stabilized the production application and resolved critical issues related to security, database performance, application performance, and complex production bugs.",
+    bs: "Vodio razvoj i održavanje proizvodne 3D web aplikacije za američke profesionalce u industriji dizajna kuhinja i unutarnjeg dizajna. Vodio tim od dva developera, donosio tehničke odluke i nadgledao implementaciju novih značajki. Razvio kompleksnu 3D funkcionalnost dizajnera uključujući detekciju kolizija, kontrole kamere, transformacije objekata, animacije, dimenzioniranje i sisteme za čuvanje datoteka. Stabilizirao proizvodnu aplikaciju i riješio kritične probleme vezane za sigurnost, performanse baze podataka, performanse aplikacije i kompleksne proizvodne bugove.",
   },
   // Contact
   getInTouchHeading: {
